@@ -1,0 +1,87 @@
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+
+// Imports
+@import "compass";
+
+$color: #854f37;
+
+#whatilooklike {
+  display: block; 
+  width: 20rem;
+  margin: 0 auto;
+}
+
+#whoiam {
+  text-align: center;
+
+  h1 { 
+    font-family: Nunito;
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+    color: $color;
+  }
+
+  p { 
+    font-size: 1rem;
+    font-family: Merriweather;
+    max-width: 35rem;
+    margin: 0 auto;
+    line-height: 2;
+    padding: 0 2rem;
+  }
+
+  a, strong { 
+    color: $color;
+    padding: 0.5rem;
+    background-color: #fafafa;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+}
+
+footer { 
+    
+    text-align: center;
+    margin-bottom: 5rem;
+
+    #social { 
+         margin-top: .5rem;
+         margin-bottom: .5rem;
+         
+         a { 
+          font-size: 2rem;
+
+           &:hover { 
+            color: $color;
+            -webkit-transition: .5s ease all;
+            -moz-transition: .5s ease all;
+            -ms-transition: .5s ease all;
+            -o-transition: .5s ease all;
+            transition: .5s ease all;
+           }
+        }
+    }
+
+    a:hover { 
+        color: $color;
+         -webkit-transition: .5s ease all;
+         -moz-transition: .5s ease all;
+         -ms-transition: .5s ease all;
+         -o-transition: .5s ease all;
+         transition: .5s ease all;
+    }
+
+    #thisismine,a  { 
+        display: inline-block;
+        vertical-align: middle;
+        color: #999;
+        font-size: .8rem;
+        margin-left: .2rem;
+        margin-right: .2rem;
+    }
+
+}
